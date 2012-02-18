@@ -6,7 +6,10 @@
 Create a Scoreboard so you and your friends can keep track of the real Score. -->
 </div>
 <div id="loginButtons">
+
+<% if !signed_in? %>
 <%= link_to "Sign up now!", signup_path, class: "signup_button round" %>
-<%= link_to "Sign In", signup_path, class: "signin_button round" %>
+<%= link_to "Sign In", signin_path, class: "signin_button round" %>
+<% end %>
 <%= link_to "Facebook Login", signup_path, class: "facebook_button round" %>
 </div>
