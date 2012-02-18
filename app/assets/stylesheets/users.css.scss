@@ -1,0 +1,22 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#error_explanation {
+	font-size:70%;
+	color: red;
+}
+.field_with_errors {
+  margin-top: 10px;
+  background-color: red;
+  display: table;
+  padding-top: 0px;
+  
+
+  label {
+    color: #fff;
+  }
+}
+.errorLabelFix {
+  margin-bottom:-37px;
+}

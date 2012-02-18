@@ -1,0 +1,22 @@
+<% provide(:title, @user.name) %>
+<span id="gravatar">
+  <%= gravatar_for @user %>
+</span>
+<span id="userLinks" class="round">
+  Scoreboards
+  <br />
+  Quotes
+  <br />
+  <%= link_to user_path(@user), @user %>
+  <br />
+  Quotessdaf
+  <br />
+  Quotes
+  <br />
+  Quotes
+  <br />
+  Quotes
+  <br />
+  Quotes
+</span>
+<h1><%= @user.name %></h1>
